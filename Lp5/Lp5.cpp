@@ -7,10 +7,9 @@ using namespace std;
 
 int main()
 {
-    // TASK 1
     float n, m, s;
 
-    cout << "TASK 1: Find the unknown number" << endl;
+    cout << "Git changes" << endl;
 
     cout << "Enter divisor n: ";
     cin >> n;
@@ -31,12 +30,10 @@ int main()
     cout << "Result using static_cast: "
         << numberCPP << endl;
 
-
-    // TASK 2
     double x, y, a, b;
     double pi = 3.14159265358979323846;
 
-    printf("\nTASK 2: Calculate a and b\n");
+    printf("Calculate a and b\n");
 
     printf("Enter x: ");
     if (scanf_s("%lf", &x) != 1)
@@ -52,13 +49,11 @@ int main()
         return 1;
     }
 
-    // Calculate a
     a = (pow(fabs(x), 2.0 / 3.0)
         + 2.0 * cbrt(x * y)
         + 4.0 * pow(y, 3.0 / 2.0))
         / (fabs(8.0 * x - 5.0 * y) + exp(3.0 * y));
 
-    // Calculate b
     double numeratorB =
         pow(sin(x), 2.0)
         + cos(pi / 6.0)
